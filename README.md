@@ -1,4 +1,4 @@
-# ngular-from-scratch try and learn - Due Date - 2022-04-12
+# Angular-from-scratch try and learn - Due Date - 2022-04-12
 
 ## Beginner
 
