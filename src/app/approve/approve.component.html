@@ -1,0 +1,16 @@
+<h1>Approval From</h1>
+<form>
+
+    {{ request | json }}
+    <div class="form-group">
+        <label for="inputWBS">WBS</label>
+        <input type="text" class="form-control" id="inputWBS" placeholder="WBS">
+    </div>
+    <div class="form-group">
+        <label for="inputAmount">Amount</label>
+        <input type="number" class="form-control" id="inputAmount" placeholder="Amount">
+    </div>
+
+    <button type="submit" class="btn btn-primary" [routerLink]="'../'">Discard</button>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

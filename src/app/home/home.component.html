@@ -1,0 +1,17 @@
+<table>
+    <tr>
+        <th>User Name</th>
+        <th>Request</th>
+        <th>Action</th>
+    </tr>
+
+    <tr *ngFor="let user of users">
+        <td>{{user.name}}</td>
+        <td>{{user.request}}</td>
+        <td>
+            <!-- [routerLink]="'/approve/' + user.id"   -->
+            <button class="approve"[routerLink]="['/approve', user.id]">Approve</button>
+            <button class="reject" (click)="reject(user)">Reject</button>
+        </td>
+    </tr>
+</table>

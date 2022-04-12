@@ -1,50 +1,27 @@
-# Angular-from-scratch Try and Learn - Due Date - 2022-04-12
+# VoucherMC
 
-**Voucher MasterCheif**
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
 
-Voucher MasterCheif is a web application that show all pending approval to an expected user. The aim is to accelerate business approval process.
+## Development server
 
-![angular-from-scratch (2)](https://user-images.githubusercontent.com/31771810/162213503-62ba96a8-ceee-4ac2-9de9-651059755777.png)
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Getting started 
+## Code scaffolding
 
-Generate new project by using [Angular CLI](https://angular.io/cli/new#ng-new).
-```ng new <name> [options]```
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-# Subjects
+## Build
 
-## Level - Beginner
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-**Objective:** Create a from scratch an Angular Project with expected outcome.
+## Running unit tests
 
-### Acceptance Criteria
-* Be able to navigate to the home page.
-* Home page must show assigned requests.
-* When I click on **Approve** button I should see the **Approval Form**
-* When I click on **Reject** button I should see the **Reject Form**
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Level - Advanced
+## Running end-to-end tests
 
-**Objective:** Create a from scratch an Angular Project that use AgGrid library with expected outcome.
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-### Acceptance Criteria
-* Be able to navigate to the home page.
-* Home page must show assigned requests.
-   * The library to render the table must be AgGrid.
-* When I click on **Approve** button I should navigate to the **Approval Form** page
-   * WBS and Amount are readonly input field.
-   * I must be able to share the URL link.
-   * When I click on Discard button I must be redirected to the Home page.
-   * When I click on Approve button I must be redirected to the Home page.
-* When I click on **Reject** button I should navigate to the **Reject Form** page
-   * WBS and Amount are readonly input field. 
-   * Reason is mandatory field.
-      * I cannot click on **Reject** button if **Reason** input field is not filled.
-   * I must be able to share the URL link.
-   * When I click on Discard button I must be redirected to the Home page.
-   * When I click on Reject button I must be redirected to the Home page.
+## Further help
 
-# Useful links
-- Angular: https://angular.io/docs
-- AgGrid: https://www.ag-grid.com/
-- Data Generator: https://www.mockaroo.com/
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
